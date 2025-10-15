@@ -151,7 +151,7 @@ const Footer = () => {
                   {lang === "en" ? "About" : "हमारे बारे में"}
                 </h5>
                 
-                <motion.div 
+                {/* <motion.div 
                   whileHover={{ scale: 1.05 }}
                   className="mb-3"
                 >
@@ -167,7 +167,7 @@ const Footer = () => {
                       e.target.src = "https://via.placeholder.com/200x65/1B1B1B/E6C200?text=Deepa+Saini";
                     }}
                   />
-                </motion.div>
+                </motion.div> */}
 
                 <p className="small mt-3" style={{ lineHeight: "1.6" }}>
                   <strong>Deepa Saini</strong> is a Government Officer, Social Worker, and Poet 
