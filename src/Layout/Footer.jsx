@@ -299,7 +299,7 @@ const Footer = () => {
                 </div>
 
                 {/* Newsletter Subscription */}
-                <motion.div variants={itemVariants}>
+                {/* <motion.div variants={itemVariants}>
                   <h6 className="fw-bold mb-3" style={{ color: "#E6C200" }}>
                     {lang === "en" ? "Stay Updated" : "अपडेट रहें"}
                   </h6>
@@ -347,7 +347,7 @@ const Footer = () => {
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </motion.div>
+                </motion.div> */}
 
                 {/* Social Links */}
                 <motion.div variants={itemVariants} className="mt-4">
